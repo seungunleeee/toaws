@@ -1,7 +1,7 @@
 var dgram = require("dgram");
 var socket = dgram.createSocket("udp4");
 
-socket.bind(3000);
+socket.bind(3001);
 
 socket.on("listening", function () {
   console.log("listening event");
